@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+   
+}
+body{
+    background-color: #89cff0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+header{
+    text-align: center;
+}
+header h1{
+    width: 100%;
+    height: 30px;
+    
+    color: white;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    flex-direction: column;
+   
+    
+}
+.letterbox{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-bottom: 2px solid grey;
+    opacity: 0.2;
+   
+}
+.underline{
+    width: 50%;
+    height: 2px;
+    background-color: grey;
+}
+  
+
+.image{
+    width: 50px;
+    height: 50px;
+}
+.bird{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 40%;
+    object-fit: cover;
+    position: relative;
+    top: 40px;
+    right: 326px;
+   
+}
+.bird2{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 40%;
+    object-fit: cover;
+    position: relative;
+    top: 388px;
+    right: 326px;
+}
+button{
+    margin-top: 280px;
+  width: 200px;
+  height: 30px;
+  font: 38px;
+  font-weight: bold;
+  background-color: #89cff0;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
